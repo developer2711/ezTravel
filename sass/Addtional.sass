@@ -1,0 +1,74 @@
+//Addtional CODE
+
+img
+  width: 100%
+  height: 100%
+
+.container
+  max-width: 750px
+  margin: 20px auto 0 auto
+  padding: 30px
+  background-color: #FFF
+
+
+.call-outs-container
+  max-width: 1200px
+  margin: 40px auto 0 auto
+  flex-wrap: wrap
+  flex-flow: row wrap
+  align-items: center
+
+
+.call-out
+  padding: 10px
+  box-sizing: border-box
+  align-self: center
+  flex: 1
+
+@media (min-width: 900px)
+  .call-outs-container
+    display: flex
+    justify-content: center
+    flex-wrap: nowrap
+
+
+
+#searchBar
+	position: relative
+	z-index: 15
+	top: 10%
+	left: 20%
+	margin: 0
+
+
+.bigChar
+	font-size: 500%
+	font-family: Lucida Console
+	color: #f76200
+
+.bigChar-child
+	font-size: 100%
+	font-family: Lucida Console sans-serif
+	color: grey
+
+.data
+	width: 50px
+
+
+input[type=input]
+    width: 150px
+    box-sizing: border-box
+    border: 2px solid #ccc
+    border-radius: 5px
+    font-size: 16px
+    background-color: white
+    background-position: 10px 10px 10px 10px
+    background-repeat: no-repeat
+    padding: 12px 20px 12px 20px
+    -webkit-transition: width 0.4s ease-in-out
+    transition: width 0.4s ease-in-out
+    text-align: center
+
+
+input[type=input]:focus
+    width: 60%
