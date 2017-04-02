@@ -1,4 +1,8 @@
 .flex-container {
+  text-align: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -317,4 +321,46 @@
   -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
+}
+
+#searchBar {
+  position: relative;
+  z-index: 15;
+  top: 10%;
+  left: 20%;
+  margin: 0;
+}
+
+.bigChar {
+  font-size: 500%;
+  font-family: Lucida Console;
+  color: #f76200;
+}
+
+.bigChar-child {
+  font-size: 100%;
+  font-family: Lucida Console sans-serif;
+  color: grey;
+}
+
+.data {
+  width: 50px;
+}
+
+input[type=input] {
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=input]:focus {
+  width: 60%;
 }
